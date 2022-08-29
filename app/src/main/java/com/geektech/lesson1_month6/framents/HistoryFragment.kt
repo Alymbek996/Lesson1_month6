@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import com.geektech.lesson1_month6.MainViewModel
-import com.geektech.lesson1_month6.R
 import com.geektech.lesson1_month6.databinding.FragmentHistoryBinding
 
 
@@ -22,7 +21,7 @@ private lateinit var viewModel: MainViewModel
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding= FragmentHistoryBinding.inflate(layoutInflater)
         return binding.root
     }

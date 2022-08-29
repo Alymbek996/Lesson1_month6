@@ -6,10 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
-import com.geektech.lesson1_month6.Adapter.PagerAdapter
 import com.geektech.lesson1_month6.MainViewModel
-import com.geektech.lesson1_month6.R
-import com.geektech.lesson1_month6.databinding.ActivityMainBinding
 import com.geektech.lesson1_month6.databinding.FragmentFirstBinding
 
 class FirstFragment : Fragment() {
@@ -23,7 +20,7 @@ class FirstFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentFirstBinding.inflate(layoutInflater)
         return binding.root
     }

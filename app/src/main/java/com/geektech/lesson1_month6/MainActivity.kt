@@ -3,7 +3,6 @@ package com.geektech.lesson1_month6
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
-import androidx.viewbinding.ViewBinding
 import com.geektech.lesson1_month6.Adapter.PagerAdapter
 import com.geektech.lesson1_month6.databinding.ActivityMainBinding
 import com.geektech.lesson1_month6.framents.FirstFragment
